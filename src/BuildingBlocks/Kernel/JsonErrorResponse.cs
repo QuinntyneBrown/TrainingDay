@@ -1,0 +1,11 @@
+namespace Kernel;
+
+public partial class HttpGlobalExceptionFilter
+{
+    private class JsonErrorResponse
+    {
+        public string[] Messages { get; set; }
+
+        public object DeveloperMeesage { get; set; }
+    }
+}

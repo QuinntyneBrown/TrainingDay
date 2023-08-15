@@ -1,0 +1,6 @@
+namespace Kernel;
+
+public class DomainException : Exception
+{
+
+}
